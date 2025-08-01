@@ -1,11 +1,12 @@
 import React from 'react'
 import "../css/search.css"
 
-const Search = () => {
+const Search = ({ search }) => {
+
   return (
     <div className='search'>
-        <input type="text" />
-        <button>Search</button>
+      <input type="text" />
+      <button onClick={search}>Search</button>
     </div>
   )
 }

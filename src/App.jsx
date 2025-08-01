@@ -8,9 +8,7 @@ import News from "./pages/News"
 import "./css/style.css"
 
 function App() {
-  // https://www.pexels.com/zh-tw/
-  const auth = "kFjKBQxGcnUnMB3b4nKfrZpDiG8aUxxmhX6Ia9QGkouRr7UIlOpHwLZQ";
-
+  
   return (
     <>
       <div className="App">
