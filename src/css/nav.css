@@ -1,0 +1,19 @@
+nav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    padding: 0.5rem 1rem;    
+}
+
+nav ul li a{
+    font-size: 1.5rem;
+    color: white;
+}
