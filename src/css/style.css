@@ -20,3 +20,19 @@ ul {
 h1 {
     color: blue;
 }
+
+.morePictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.morePictures button{
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;;
+}
