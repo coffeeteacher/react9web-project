@@ -30,9 +30,8 @@ const Home = () => {
 
     // 取得更多圖片
     const morePic = async () => {
-
         let newURL;
-        if (input === "") {
+        if (curSearch === "") {
             newURL = `https://api.pexels.com/v1/curated?page=${page}&per_page=15`;
         } else {
             newURL = `https://api.pexels.com/v1/search?query=${curSearch}&per_page=15&page=${page}`;
@@ -49,7 +48,7 @@ const Home = () => {
         const photosData = await dataFetch.json();
         // 串接陣列資料concat()
         setData(data.concat(photosData.photos));
-        console.log(photosData);
+        // console.log(photosData);
     }
 
     // 網頁一進來就呼叫search函式
